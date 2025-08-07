@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "examples/flask-kitchensink/app.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "examples/flask-kitchensink/app.py"
+    }
+  ]
+}
