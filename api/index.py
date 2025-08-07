@@ -83,6 +83,3 @@ def handle_text_message(event):
             )
         )
 
-# 這個 app.run 的部分在 Vercel 上不會被執行，但保留也無妨
-if __name__ == "__main__":
-    app.run(port=5001)
